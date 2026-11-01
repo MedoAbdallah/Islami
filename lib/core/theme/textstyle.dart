@@ -11,7 +11,7 @@ class TextStylesHelper {
     );
   }
 
-    static TextStyle largeFontTextStyle({Color textColor = AppColors.gold}) {
+  static TextStyle largeFontTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.w900,
@@ -38,7 +38,7 @@ class TextStylesHelper {
     );
   }
 
-   static TextStyle smallTextStyle({Color textColor = AppColors.gold}) {
+  static TextStyle smallTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.bold,
@@ -46,7 +46,6 @@ class TextStylesHelper {
       fontFamily: "Janna",
     );
   }
-
 
   static TextStyle largeLabelTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
@@ -57,7 +56,7 @@ class TextStylesHelper {
     );
   }
 
-    static TextStyle largeLabelBoldTextStyle({Color textColor = AppColors.gold}) {
+  static TextStyle largeLabelBoldTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.bold,
@@ -75,7 +74,7 @@ class TextStylesHelper {
     );
   }
 
-   static TextStyle largeBoldTextStyle({Color textColor = AppColors.gold}) {
+  static TextStyle largeBoldTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
       color: textColor,
       fontWeight: FontWeight.bold,
@@ -83,8 +82,6 @@ class TextStylesHelper {
       fontFamily: "Janna",
     );
   }
-
-
 
   static TextStyle mediumLabelTextStyle({Color textColor = AppColors.gold}) {
     return TextStyle(
